@@ -1,0 +1,7 @@
+Options -Indexes
+ErrorDocument 403 "You dont have permission to access"
+allow from all
+<Files .env>
+    order allow,deny
+    Deny from all
+</Files>
